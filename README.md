@@ -1,2 +1,2 @@
 # AirSim-End-To-End-Deep-Learning
-Modul Pembelajaran Machine Learning Menggunakan AirSim yang dibuat berdasarkan tutorial dari http://localhost:8888/tree/AirSim/AutonomousDrivingCookbook-master
+Modul Pembelajaran Machine Learning Menggunakan AirSim yang dibuat berdasarkan tutorial dari https://github.com/microsoft/AutonomousDrivingCookbook/tree/master/AirSimE2EDeepLearning
