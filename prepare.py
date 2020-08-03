@@ -15,16 +15,16 @@ COOKED_DATA_DIR = 'data_cooked/'
 
 # The folders to search for data under RAW_DATA_DIR
 # For example, the first folder searched will be RAW_DATA_DIR/normal_1
-DATA_FOLDERS = ['2020-07-27-12-50-57']
+DATA_FOLDERS = ['2020-07-30-12-46-00']
 
 # The size of the figures in this notebook
 FIGURE_SIZE = (10,10)
 
-sample_tsv_path = os.path.join(RAW_DATA_DIR, '2020-07-27-12-50-57/airsim_rec.txt')
+sample_tsv_path = os.path.join(RAW_DATA_DIR, '2020-07-30-12-46-00/airsim_rec.txt')
 sample_tsv = pd.read_csv(sample_tsv_path, sep='\t')
 sample_tsv.head()
 
-sample_image_path = os.path.join(RAW_DATA_DIR, '2020-07-27-12-50-57/images/img_0_0_4319504451200.png')
+sample_image_path = os.path.join(RAW_DATA_DIR, '2020-07-30-12-46-00/images/img_0_0_1519516020687100.png')
 sample_image = Image.open(sample_image_path)
 plt.title('Sample Image')
 plt.imshow(sample_image)
