@@ -21,7 +21,7 @@ from PIL import Image, ImageDraw
 import math
 import matplotlib.pyplot as plt
 
-for i in range(0, 500, 1):
+for i in range(0, 10, 1):
     print("Training ke ", i)
     # << The directory containing the cooked data from the previous step >>
     COOKED_DATA_DIR = 'data_cooked/'
