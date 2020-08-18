@@ -7,7 +7,7 @@ os.system('python -m pip install --upgrade pip')
 os.system('conda update -n base conda')
 
 #### Pilih tensorflow gpu jika menggunakan GPU Nvidia
-#os.system('pip install tensorflow==2.1.0')
+os.system('pip install tensorflow==2.1.0')
 os.system('pip install tensorflow-gpu==2.1.0')
 ####
 
@@ -34,5 +34,5 @@ os.system('conda install scipy')
 os.system('pip install Pillow')
 os.system('conda install tornado')
 os.system('conda install -c conda-forge jupyterlab')
-os.system('pip install tornado')
-os.system('pip install notebook')
+os.system('pip install tornado==4.5.3')
+os.system('pip install notebook==5.7.0')
