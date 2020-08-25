@@ -7,14 +7,9 @@ os.system('python -m pip install --upgrade pip')
 os.system('conda update -n base conda')
 
 #### Pilih tensorflow gpu jika menggunakan GPU Nvidia
-#os.system('pip install tensorflow==2.1.0')
+os.system('pip install tensorflow==2.1.0')
 os.system('pip install tensorflow-gpu==2.1.0')
 ####
-
-##### Gunakan opsi ini ketika training, pilih keras-gpu jika menggunakan GPU Nvidia
-#os.system('pip install keras==2.1.2')
-#os.system('conda install -c conda-forge keras-gpu=2.1.2')
-#####
 
 ### Pilih keras gpu jika menggunakan GPU Nvidia
 os.system('pip install keras==2.4.3')
